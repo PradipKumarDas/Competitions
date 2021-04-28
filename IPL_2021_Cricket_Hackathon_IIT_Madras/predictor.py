@@ -26,26 +26,26 @@ def predictRuns(testInput):
 
     input_data = pd.read_csv(testInput)
     
-    input_data.venue[input_data.venue.str.contains("Brabourne", 
-                                                 case=False)] = "Brabourne Stadium"
+    input_data.venue[input_data.venue.str.contains("brabourne", 
+                                                 case=False)] = "brabourne stadium"
     
-    input_data.venue[input_data.venue.str.contains("Chinnaswamy", 
-                                                 case=False)] = "M. Chinnaswamy Stadium"
+    input_data.venue[input_data.venue.str.contains("chinnaswamy", 
+                                                 case=False)] = "m. chinnaswamy stadium"
     
-    input_data.venue[input_data.venue.str.contains("Chidambaram", 
-                                                 case=False)] = "M. A. Chidambaram Stadium"
+    input_data.venue[input_data.venue.str.contains("chidambaram", 
+                                                 case=False)] = "m. a. chidambaram Stadium"
     
-    input_data.venue[input_data.venue.str.contains(r'Narendra Modi', 
-                                                 case=False)] = "Narendra Modi Stadium"
+    input_data.venue[input_data.venue.str.contains(r'narendra modi', 
+                                                 case=False)] = "narendra modi stadium"
 
-    input_data.venue[input_data.venue.str.contains(r'Punjab Cricket|IS Bindra|Inderjit Singh Bindra', 
-                                                 case=False)] = "IS Bindra Stadium"
+    input_data.venue[input_data.venue.str.contains(r'punjab cricket|is bindra|inderjit singh bindra', 
+                                                 case=False)] = "is bindra stadium"
     
-    input_data.venue[input_data.venue.str.contains("Rajiv Gandhi", 
-                                                 case=False)] = "Rajiv Gandhi International Cricket Stadium"
+    input_data.venue[input_data.venue.str.contains("rajiv gandhi", 
+                                                 case=False)] = "rajiv gandhi international cricket stadium"
     
-    input_data.venue[input_data.venue.str.contains("Wankhede", 
-                                                 case=False)] = "Wankhede Stadium"
+    input_data.venue[input_data.venue.str.contains("wankhede", 
+                                                 case=False)] = "wankhede stadium"
 
     
     # Loads venue encoder and encodes venue
