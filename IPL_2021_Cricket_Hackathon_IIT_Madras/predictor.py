@@ -26,6 +26,9 @@ def predictRuns(testInput):
 
     input_data = pd.read_csv(testInput)
     
+    input_data.venue[input_data.venue.str.contains("arun jaitley", 
+                                                 case=False)] = "arun jaitley stadium"
+    
     input_data.venue[input_data.venue.str.contains("brabourne", 
                                                  case=False)] = "brabourne stadium"
     
