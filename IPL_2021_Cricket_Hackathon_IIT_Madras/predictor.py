@@ -22,9 +22,19 @@ def predictRuns(testInput):
     
     prediction = 0
     
-    # Updates these venues that are mentioned in different names with same name
-
+    # Loads input data
+    
     input_data = pd.read_csv(testInput)
+    
+    # Converts all string data into lowercase
+
+    input_data.venue = input_data.venue.str.lower()
+    input_data.batting_team = input_data.batting_team.str.lower()
+    input_data.bowling_team = input_data.bowling_team.str.lower()
+    input_data.batsmen = input_data.batsmen.str.lower()
+    input_data.bowlers = input_data.bowlers.str.lower()
+
+    # Updates these venues that are mentioned in different names with same name
     
     input_data.venue[input_data.venue.str.contains("arun jaitley", 
                                                  case=False)] = "arun jaitley stadium"
