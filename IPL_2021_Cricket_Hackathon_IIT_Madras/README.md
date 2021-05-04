@@ -2,7 +2,7 @@
 
 # Indian Premier League (IPL) 2021 Cricket Hackathon
 ## Organized by IIT Madras BSc in Programming and Data Science Team
-### This is a solution to this competition to predict T20 2021 match score after 6 overs.
+### This is my competition solution to predict runs of each innings of T20 match score after 6 overs.
 
 ### About the Contest
 - This is an academic competition designed for learners to learn as well as practitioners to demonstrate their capabilities.
@@ -17,7 +17,7 @@
 - Submission for a match will be disqualified if it produces any error or fails to produce output in the expected format.
 - The target environment will be having CPU only and no GPU support will be provided. GPU in the development computer can be used if the models require GPU to be trained on. Built models then need to be uploaded in a consolidated zipped file.
 
-### Information and Resources to be Shared
+### Information and Resources Shared
 - Ball-by-ball data of the past IPL matches since 2008. The data can also be downloaded directly from <https://cricsheet.org/downloads/ipl_csv2.zip>.
 - Sample input files that the submission code has to accept, process and predict the 6-overs runs on. There will be one input file for each innings to predict the 6-overs runs for, and will contain the following information.
 	- Venue (stadium)
@@ -42,4 +42,11 @@
 | April 26 2021  |  Registration closes and the contest begins |
 | April 26 - May 24 2021  | Daily submission for each match  |
 | May 27 2021 | Announcement of winner(s) |
+
+### High-level Solution Approaches
+Below are the high-level approaches considered for the machine learning based score prediction.
+- **Data Procurement:** https://cricsheet.org/ containing updated ball-by-ball innings information was considered and the same was used as dataset for this solution.
+- **Data Analysis & Preprocessing :** Downloaded data was extracted, analysed and encoded at required level.
+- **Model Building:** A number of shallow learning techniques e.g. Decision Tree, Random Forests and Gradient Boosted Trees, and a Dense Fully Connected Deep Neural Network model were built and their test performances were compared.
+- **Competing Model:** Serialized Deep Learning model was selected to compete in the contest and same along with other Python support files were compressed and uploaded in competition site for evaluation.
 
