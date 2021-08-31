@@ -25,9 +25,9 @@ where <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> 
 **Submission File**
 For each row in the test set, you must predict the value of the target as described on the data tab, each on a separate row in the submission file. The file should contain a header and have the following format:
 
-id,target
-0,0.5
-5,10.2
-15,2.2
+id, target
+0, 0.5
+5, 10.2
+15, 2.2
 etc.
 
