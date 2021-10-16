@@ -1,12 +1,27 @@
 # Competitions
 
-### Active  and Previous Competitions
-This repository is the home for the following competitions that I have been participating in.
+### Ongoing  and Earlier Competitions
+This repository is the home for the following competitions that I have been participating in. Respective Git folders can be referred for more details.
 
-| Competition | Organizer | Timeline |
-| ------------ | ------------ | ------------ |
-| [CommonLit Readability Assessment](https://www.kaggle.com/c/commonlitreadabilityprize "CommonLit Readability Assessment") | Kaggle  | May 3, 2021 - August 02, 2021 |
-| [IPL 2021 Cricket Hackathon](https://onlinedegree.iitm.ac.in/contest/ "IPL 2021 Cricket Hackathon") | IIT Madras | April 12, 2021 - May 24, 2021 |
+
+
+- [**Tabular Playground Series** by Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/Tabular_Playground_Series_Kaggle/Tabular_Playground_Series-Sep_2021_Kaggle)
+*Intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `XGBoost` `Hyperopt`
+
+- [**Data-Centric AI Competition** by DeepLearning.AI](https://github.com/PradipKumarDas/Competitions/tree/main/Data-Centric_AI_Competition_DeepLearning.AI)
+*Data-centric approaches as against model-centric approaches to improves model’s prediction performance.* `Label Correction` `Noise Removal` `Geometric Transformations`
+
+- [**Car Price Prediction Hackathon** by MachineHack](https://github.com/PradipKumarDas/Competitions/tree/main/Car_Price_Prediction_MachineHack)
+*Predicting price of a car with different features.* `EDA` `CatBoost`
+
+- [**Loan Amount Prediction Competition** by HackerEarth](https://github.com/PradipKumarDas/Competitions/tree/main/Loan_Sanction_Amount_Prediction)
+*Predicting home loan amount to be sanctioned by a bank based applicant’s demographics, financial status and the property under consideration.* `EDA` `Decision Trees` `Random Forests` `XGBoost` `Hyperopt`
+
+- [**CommonLit Readability Prize Competition** by Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/CommonLit_Readability_Competition_Kaggle)
+*Assesses text readability to predict right reading level of a passage to create appropriate study content for students.*  `EDA` `1D ConvNet` `Transformers (BERT, RoBERTa)` `Cross Validation` `Fine Tuning`
+
+- [**IPL 2021 T20 Score Prediction Challenge** by IIT Madras](https://github.com/PradipKumarDas/Competitions/tree/main/IPL_2021_Cricket_Hackathon_IIT_Madras)
+*Predicting Indian Premier League (IPL) match score at the end of six overs.* `EDA` `Preprocessing` `Shallow Learning` `Deep Learning`
 
 ### Content
 - Exploratory Data Analysis (EDA)
@@ -17,10 +32,17 @@ This repository is the home for the following competitions that I have been part
 
 ### Primary Techniques, Tools, Technologies & Environment
 - EDA
+- Pipeline
+- Cross Validation
+- Data Augmentation
+- Decision Tree
+- Random Forests
 - Scikit Learn
 - XGBoost
+- CatBoost
 - Keras
-- Transformers
+- Hyperopt
+- Transformers (BERT, RoBERTa)
 - Shallow Learning and Deep Learning
 - Jupyter, Google Colab
 - Python
