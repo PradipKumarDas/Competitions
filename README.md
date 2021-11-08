@@ -3,10 +3,11 @@
 ### Ongoing  and Earlier Competitions
 This repository is the home for the following competitions that I have been participating in. Respective Git folders can be referred for more details.
 
-
-
 - [**Tabular Playground Series** by Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/Tabular_Playground_Series_Kaggle/Tabular_Playground_Series-Sep_2021_Kaggle)
 *Intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `XGBoost` `Hyperopt`
+
+- [**Shell Solar Power Prediction** by HackerEarth](https://github.com/PradipKumarDas/Competitions/tree/main/Shell_Solar_Power_Prediction_Challenge_HackerEarth)
+*Predicting cloud coverage as a percentage of the open sky for a fixed field of view at 4 horizon intervals of 30, 60, 90, and 120 minutes from a 6-hour window of historical data.* `EDA` `Feature Engineering` `RNN` `Keras` `TensorBoard`
 
 - [**Data-Centric AI Competition** by DeepLearning.AI](https://github.com/PradipKumarDas/Competitions/tree/main/Data-Centric_AI_Competition_DeepLearning.AI)
 *Data-centric approaches as against model-centric approaches to improves model’s prediction performance.* `Label Correction` `Noise Removal` `Geometric Transformations`
@@ -32,6 +33,7 @@ This repository is the home for the following competitions that I have been part
 
 ### Primary Techniques, Tools, Technologies & Environment
 - EDA
+- Feature Engineering
 - Pipeline
 - Cross Validation
 - Data Augmentation
@@ -43,6 +45,7 @@ This repository is the home for the following competitions that I have been part
 - Keras
 - Hyperopt
 - Transformers (BERT, RoBERTa)
+- TensorBoard
 - Shallow Learning and Deep Learning
 - Jupyter, Google Colab
 - Python
