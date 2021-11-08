@@ -1,0 +1,4 @@
+dataset/train/*/
+dataset/test/**/*.jpg
+dataset/*.zip
+
