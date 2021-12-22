@@ -1,0 +1,38 @@
+
+MANUAL LOG NOTES
+
+Automated Modeling (FLAML)
+========================================
+time_budget=600, eval_method=holdout, retrain_full=False, early_stop=False,  auto_augment=True, val_acc=0.954035
+hyperparameters=colsample_bytree=0.8705108142050003, learning_rate=0.5437870217480967, max_bin=127, min_child_samples=3, n_estimators=161, num_leaves=147, reg_alpha=0.0011953079289551073, reg_lambda=21.35614693874936
+
+time_budget=600, eval_method=holdout, retrain_full=False, early_stop=True,  auto_augment=True, val_acc=0.954035
+hyperparameters=colsample_bytree=0.8705108142050003, learning_rate=0.5437870217480967, max_bin=127, min_child_samples=3, n_estimators=161, num_leaves=147, reg_alpha=0.0011953079289551073, reg_lambda=21.35614693874936
+
+time_budget=600, eval_method=holdout, retrain_full=False, early_stop=True,  auto_augment=False, val_acc=0.9551675
+hyperparameters=colsample_bytree=0.9743102956830074, learning_rate=0.3530678179688229, max_bin=1023, min_child_samples=3, n_estimators=128, num_leaves=101, reg_alpha=0.01262972173083393, reg_lambda=47.88092406355771
+
+time_budget=600, eval_method=cv, n_splits=5, split_type=stratified, early_stop=True,  auto_augment=False, 
+val_acc=0.90195375
+hyperparameters=learning_rate=0.26770501231052046, max_bin=127, min_child_samples=12, n_estimators=4, num_leaves=4, reg_alpha=0.001348364934537134, reg_lambda=1.4442580148221913
+
+time_budget=900, eval_method=holdout, retrain_full = True, early_stop=True,  auto_augment=False, val_acc=0.95454875
+hyperparameters=colsample_bytree=0.890769846542865, learning_rate=0.23094080589000204, max_bin=127, min_child_samples=3, n_estimators=627, num_leaves=88, reg_alpha=0.0009930276486494831, reg_lambda=5.522396597071613
+               
+time_budget=2700, eval_method=holdout, retrain_full = True, early_stop = True,  auto_augment = False, 
+val_acc=0.96677125 [test_acc=0.95486]
+hyperparameters=colsample_bytree=0.9535861288343342, learning_rate=0.04672579008720816, max_bin=255, min_child_samples=4, n_estimators=163, num_leaves=218, reg_alpha=0.0009765625, reg_lambda=15.31139670937112
+
+
+Manual Modeling (LightGBM)
+================================
+boost=gbdt, multiclass, num_leaves=31, estimators=100, early_stopped=20, lr=0.05, val_acc=0.93501 [test_acc=0.93819]
+boost=gbdt, multiclass, num_leaves=128, estimators=200, early_stopped=25, lr=0.05, val_acc=0.94371875 [test_acc=0.94252]
+boost=gbdt, multiclass, num_leaves=128, estimators=300, early_stopped=, lr=0.01, val_acc=0.95314 [test_acc=0.95121]
+boost=gbdt, multiclass, num_leaves=256, estimators=500, early_stopped=35, lr=0.05, val_acc=0.9485325 [test_acc=]
+boost=gbdt, multiclass, num_leaves=256, estimators=500, early_stopped=57, lr=0.04, val_acc=0.95272125 [test_acc=]
+boost=gbdt, multiclass, num_leaves=256, estimators=500, early_stopped=103, lr=0.03, val_acc=0.95460375 [test_acc=]
+boost=gbdt, multiclass, num_leaves=256, estimators=500, early_stopped=483, lr=0.02, val_acc=0.95652125 [test_acc=0.95452]
+boost=gbdt, multiclassova, estimators=100, early_stopped=, lr=0.05, val_acc=0.91772125
+boost=dart, multiclass, estimators=100, early_stopped=, lr=0.05, val_acc=0.936415
+

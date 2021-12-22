@@ -4,7 +4,7 @@
 This repository is the home for the following competitions that I have been participating in. Respective Git folders can be referred for more details.
 
 - [**Tabular Playground Series** | Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/Tabular_Playground_Series_Kaggle/Tabular_Playground_Series-Sep_2021_Kaggle):
-*Intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `XGBoost` `Hyperopt` `DenseNet` `Keras`
+*Intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `LightGBM` `AutoML` `XGBoost` `Hyperopt` `DenseNet` `Keras`
 
 - [**Shell Solar Power Prediction** | HackerEarth](https://github.com/PradipKumarDas/Competitions/tree/main/Shell_Solar_Power_Prediction_Challenge_HackerEarth):
 *Predicting cloud coverage as a percentage of the open sky for a fixed field of view at 4 horizon intervals of 30, 60, 90, and 120 minutes from a 6-hour window of historical data.* `EDA` `Feature Engineering` `RNN` `Keras` `TensorBoard`
@@ -24,11 +24,11 @@ This repository is the home for the following competitions that I have been part
 - [**IPL 2021 T20 Score Prediction Challenge** | IIT Madras](https://github.com/PradipKumarDas/Competitions/tree/main/IPL_2021_Cricket_Hackathon_IIT_Madras):
 *Predicting Indian Premier League (IPL) match score at the end of six overs.* `EDA` `Preprocessing` `Shallow Learning` `Deep Learning`
 
-### Content
+### High-level Solution Approaches
 - Exploratory Data Analysis (EDA)
 - Having baseline performance
 - Building advanced models
-- Performing and submitting predictions
+- Analysing model performance
 - Conclusions
 
 ### Primary Techniques, Tools, Technologies & Environment
@@ -37,17 +37,20 @@ This repository is the home for the following competitions that I have been part
 - Pipeline
 - Cross Validation
 - Data Augmentation
-- Decision Tree
-- Random Forests
+- Shallow Learning (Tree-based Estimators)
+	- Decision Tree
+	- Random Forests
+	- LightGBM
+	- CatBoost
+	- XGBoost
 - Scikit Learn
-- XGBoost
-- CatBoost
-- DenseNet
+- AutoML (FLAML)
+- Hyperparameters Tuning (Hyperopt)
+- Artificial Neural Network & Deep Learning
+	- DenseNet
+	- Transformers (BERT, RoBERTa)
 - Keras
-- Hyperopt
-- Transformers (BERT, RoBERTa)
 - TensorBoard
-- Shallow Learning and Deep Learning
 - Jupyter, Google Colab
 - Python
 - Anaconda Data Science Platform
