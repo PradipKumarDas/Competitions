@@ -3,8 +3,11 @@
 ### Ongoing and Earlier Competitions
 This repository is the home for the following competitions that I have been participating in. Respective Git folders can be referred for more details.
 
+- [**Ugam Sentiment Analysis** | MachineHack](https://github.com/PradipKumarDas/Competitions/tree/main/Ugam_Sentiment_Analysis_MachineHack "Ugam Sentiment Analysis | MachineHack"):
+*Predicting overall polarity of sentiment and aspects of the online reviews.* `Multi-label Classification` `EDA` `Transformers` `Fine Tuning`
+
 - [**Tabular Playground Series** | Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/Tabular_Playground_Series_Kaggle/Tabular_Playground_Series-Sep_2021_Kaggle):
-*Intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `LightGBM` `AutoML` `XGBoost` `Hyperopt` `DenseNet` `Keras`
+*A series of intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `LightGBM` `AutoML` `XGBoost` `Hyperopt` `DenseNet` `Keras`
 
 - [**Shell Solar Power Prediction** | HackerEarth](https://github.com/PradipKumarDas/Competitions/tree/main/Shell_Solar_Power_Prediction_Challenge_HackerEarth):
 *Predicting cloud coverage as a percentage of the open sky for a fixed field of view at 4 horizon intervals of 30, 60, 90, and 120 minutes from a 6-hour window of historical data.* `EDA` `Feature Engineering` `RNN` `Keras` `TensorBoard`
@@ -34,6 +37,7 @@ This repository is the home for the following competitions that I have been part
 ### Primary Techniques, Tools, Technologies & Environment
 - EDA
 - Feature Engineering
+- Fine-tuning
 - Pipeline
 - Cross Validation
 - Data Augmentation
@@ -47,12 +51,11 @@ This repository is the home for the following competitions that I have been part
 - AutoML (FLAML)
 - Hyperparameters Tuning (Hyperopt)
 - Artificial Neural Network & Deep Learning
-	- DenseNet
-	- Transformers (BERT, RoBERTa)
+	- Multi-layer Perceptrons (MLP)
+	- Transformers (BERT, RoBERTa, DistilBERT)
 - Keras
 - TensorBoard
-- Jupyter, Google Colab
+- Jupyter, Anaconda Data Science Platform, Google Colab
 - Python
-- Anaconda Data Science Platform
 - Git
 - Linux
