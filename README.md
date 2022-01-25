@@ -7,7 +7,12 @@ This repository is the home for the following competitions that I have been part
 *Predicting overall polarity of sentiment and aspects of the online reviews.* `Multi-label Classification` `EDA` `Transformers` `Fine Tuning`
 
 - [**Tabular Playground Series** | Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/Tabular_Playground_Series_Kaggle/Tabular_Playground_Series-Sep_2021_Kaggle):
-*A series of intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `LightGBM` `AutoML` `XGBoost` `Hyperopt` `DenseNet` `Keras`
+*A series of intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `LightGBM` `AutoML` `XGBoost` `Time Series` `StatsModels` `Hyperopt` `DenseNet` `Keras`
+	- Jan. 2022: *Forecasting product sales for multiple chain stores*
+	- Dec. 2021: *Predicting forest cover type from cartographic variables*
+	- Nov. 2021: *Identifying spam emails via various extracted features from the email*
+	- Oct. 2021: *Predicting biological response of molecules given various chemical properties*
+	- Sep. 2021: *Predicting whether a claim will be made on an insurance policy*
 
 - [**Shell Solar Power Prediction** | HackerEarth](https://github.com/PradipKumarDas/Competitions/tree/main/Shell_Solar_Power_Prediction_Challenge_HackerEarth):
 *Predicting cloud coverage as a percentage of the open sky for a fixed field of view at 4 horizon intervals of 30, 60, 90, and 120 minutes from a 6-hour window of historical data.* `EDA` `Feature Engineering` `RNN` `Keras` `TensorBoard`
@@ -41,12 +46,15 @@ This repository is the home for the following competitions that I have been part
 - Pipeline
 - Cross Validation
 - Data Augmentation
-- Shallow Learning (Tree-based Estimators)
-	- Decision Tree
-	- Random Forests
-	- LightGBM
-	- CatBoost
-	- XGBoost
+- Shallow Learning
+	- Linear Regression
+	- Tree-based Estimators
+		- Decision Tree
+		- Random Forests
+		- LightGBM
+		- CatBoost
+		- XGBoost
+- Time Series (StatsModels)
 - Scikit Learn
 - AutoML (FLAML)
 - Hyperparameters Tuning (Hyperopt)
