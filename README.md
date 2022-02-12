@@ -1,18 +1,14 @@
 # Competitions
 
-### Ongoing and Earlier Competitions
 This repository is the home for the following competitions that I have been participating in. Respective Git folders can be referred for more details.
+
+## The Competitions
 
 - [**Ugam Sentiment Analysis** | MachineHack](https://github.com/PradipKumarDas/Competitions/tree/main/Ugam_Sentiment_Analysis_MachineHack "Ugam Sentiment Analysis | MachineHack"):
 *Predicting overall polarity of sentiment and aspects of the online reviews.* `Multi-label Classification` `EDA` `Transformers` `Fine Tuning`
 
-- [**Tabular Playground Series** | Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/Tabular_Playground_Series_Kaggle/Tabular_Playground_Series-Sep_2021_Kaggle):
-*A series of intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `LightGBM` `AutoML` `XGBoost` `Time Series` `StatsModels` `Hyperopt` `DenseNet` `Keras`
-	- Jan. 2022: *Forecasting product sales for multiple chain stores*
-	- Dec. 2021: *Predicting forest cover type from cartographic variables*
-	- Nov. 2021: *Identifying spam emails via various extracted features from the email*
-	- Oct. 2021: *Predicting biological response of molecules given various chemical properties*
-	- Sep. 2021: *Predicting whether a claim will be made on an insurance policy*
+- [**Tabular Playground Series** | Kaggle](https://github.com/PradipKumarDas/Competitions/tree/main/Tabular_Playground_Series_Kaggle/):
+*A series of intermediate-level machine learning competitions on various tabular datasets.* `EDA` `Pipeline` `Cross Validation` `LightGBM` `AutoML` `XGBoost` `MLP` `Time Series Analysis` `StatsModels` `Keras` `Hyperparameters Tuning`
 
 - [**Shell Solar Power Prediction** | HackerEarth](https://github.com/PradipKumarDas/Competitions/tree/main/Shell_Solar_Power_Prediction_Challenge_HackerEarth):
 *Predicting cloud coverage as a percentage of the open sky for a fixed field of view at 4 horizon intervals of 30, 60, 90, and 120 minutes from a 6-hour window of historical data.* `EDA` `Feature Engineering` `RNN` `Keras` `TensorBoard`
@@ -32,14 +28,14 @@ This repository is the home for the following competitions that I have been part
 - [**IPL 2021 T20 Score Prediction Challenge** | IIT Madras](https://github.com/PradipKumarDas/Competitions/tree/main/IPL_2021_Cricket_Hackathon_IIT_Madras):
 *Predicting Indian Premier League (IPL) match score at the end of six overs.* `EDA` `Preprocessing` `Shallow Learning` `Deep Learning`
 
-### High-level Solution Approaches
+## High-level Solution Approaches
 - Exploratory Data Analysis (EDA)
-- Having baseline performance
+- Building baseline models
 - Building advanced models
 - Analysing model performance
 - Conclusions
 
-### Primary Techniques, Tools, Technologies & Environment
+## Primary Techniques, Tools, Technologies & Environment
 - EDA
 - Feature Engineering
 - Fine-tuning
@@ -54,13 +50,13 @@ This repository is the home for the following competitions that I have been part
 		- LightGBM
 		- CatBoost
 		- XGBoost
-- Time Series (StatsModels)
+- Time Series Analysis [StatsModels]
 - Scikit Learn
-- AutoML (FLAML)
-- Hyperparameters Tuning (Hyperopt)
+- AutoML [FLAML]
+- Hyperparameters Tuning [Hyperopt]
 - Artificial Neural Network & Deep Learning
 	- Multi-layer Perceptrons (MLP)
-	- Transformers (BERT, RoBERTa, DistilBERT)
+	- Transformers [BERT, RoBERTa, DistilBERT]
 - Keras
 - TensorBoard
 - Jupyter, Anaconda Data Science Platform, Google Colab
